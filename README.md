@@ -6,5 +6,5 @@ Clone this repository to your local machine: git clone https://github.com/jim-mc
 License
 This repository is licensed under the MIT License, so feel free to use the code for your projects.
 <br><br>
-Be Well,
+Be Well,<br>
 ~jim
