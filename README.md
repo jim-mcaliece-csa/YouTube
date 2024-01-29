@@ -1,5 +1,5 @@
 <h1>YouTube Tutorials Solutions Repository</h1>
-Welcome to the YouTube Tutorials Solutions repository! This repository contains individual solutions for various YouTube tutorials. Each folder in this repository corresponds to a specific tutorial, and within each folder, you'll find the code and resources related to that tutorial.
+Welcome to my YouTube Tutorials Solutions repository! This repository contains individual solutions for various YouTube tutorials. Each folder in this repository corresponds to a specific tutorial, and within each folder, you'll find the code and resources related to that tutorial.
 <br><br>
 Clone this repository to your local machine: git clone https://github.com/jim-mcaliece-csa/YouTube.git
 <br><br>
