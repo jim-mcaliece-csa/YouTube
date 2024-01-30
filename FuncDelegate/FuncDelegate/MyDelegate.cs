@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Xml.Linq;
 
 
 namespace FuncDelegate
@@ -7,11 +8,23 @@ namespace FuncDelegate
     {
         static async Task Main(string[] args)
         {
+            ///*
+            // * Delegate without a Lambda
+            // */
+            // Func with no input parameters and int return type
+            Func<string, string> upper = UppercaseTheString;
+            string UppercaseTheString(string inputString)
+            {
+                return inputString.ToUpper();
+            }
 
+            Console.WriteLine(upper("lowercase letters"));
+            Console.WriteLine("Click any key to continue");
+            Console.Write(Console.ReadLine());
             ///*
             // * Lambda Function that receives no parameters and returns a random number.
             // */
-            // Example 1: Func with no input parameters and int return type
+            // Func with no input parameters and int return type
             Func<int> getRandomNumber = () =>
             {
                 Random random = new Random();
